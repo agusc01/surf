@@ -191,3 +191,12 @@ static Button buttons[] = {
 	{ OnAny,        0,              9,      clicknavigate,  { .i = +1 },    1 },
 	{ OnMedia,      MODKEY,         1,      clickexternplayer, { 0 },       1 },
 };
+
+/* Put here your aliases */
+static Alias aliases[] = {
+    /* Alias        URI */
+    { "ai",         "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" },
+    { "q",          "https://duckduckgo.com/" },
+    { "qq",         "https://google.com/" },
+    { "t",          "https://translate.google.co.uk/" },
+};
