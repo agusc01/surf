@@ -196,7 +196,12 @@ static Button buttons[] = {
 static Alias aliases[] = {
     /* Alias        URI */
     { "ai",         "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" },
-    { "q",          "https://duckduckgo.com/" },
-    { "qq",         "https://google.com/" },
-    { "t",          "https://translate.google.co.uk/" },
+    { "duck",       "https://duckduckgo.com/" },
+    { "google",     "https://google.com/" },
+    { "tr",         "https://translate.google.co.uk/" },
+    { "dwm",      	"http://dwm.suckless.org/" },
+    { "st",      	"http://st.suckless.org/" },
+    { "surf",      	"http://surf.suckless.org/" },
+    { "slock",      "http://tools.suckless.org/slock/" },
+    { "dmenu",      "http://tools.suckless.org/dmenu/" },
 };
