@@ -195,13 +195,22 @@ static Button buttons[] = {
 /* Put here your aliases */
 static Alias aliases[] = {
     /* Alias        URI */
-    { "ai",         "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" },
-    { "duck",       "https://duckduckgo.com/" },
-    { "google",     "https://google.com/" },
-    { "tr",         "https://translate.google.co.uk/" },
-    { "dwm",      	"http://dwm.suckless.org/" },
-    { "st",      	"http://st.suckless.org/" },
-    { "surf",      	"http://surf.suckless.org/" },
-    { "slock",      "http://tools.suckless.org/slock/" },
-    { "dmenu",      "http://tools.suckless.org/dmenu/" },
+    { "ai",         "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" }, //customalias
+    { "duck",       "https://duckduckgo.com/" }, //customalias
+    { "google",     "https://google.com/" }, //customalias
+    { "tr",         "https://translate.google.co.uk/" }, //customalias
+    { "tre",        "https://translate.google.co.uk/?sl=en&tl=es&op=translate" }, //customalias
+    { "trs",        "https://translate.google.co.uk/?sl=es&tl=en&op=translate" }, //customalias
+    { "dwm",      	"http://dwm.suckless.org/" }, //customalias
+    { "st",      	"http://st.suckless.org/" }, //customalias
+    { "surf",      	"http://surf.suckless.org/" }, //customalias
+    { "slock",      "http://tools.suckless.org/slock/" }, //customalias
+    { "dmenu",      "http://tools.suckless.org/dmenu/" }, //customalias
+};
+
+static SearchEngine searchengines[] = {
+	{ "duckq", 		"https://duckduckgo.com/?q=%s" }, //customsearch
+	{ "googleq ", 	"https://google.com/search?q=%s" }, //customsearch
+	{ "treq", 		"https://translate.google.co.uk/?sl=en&tl=es&op=translate&text=%s" }, //customsearch
+	{ "trsq", 		"https://translate.google.co.uk/?sl=es&tl=en&op=translate&text=%s" }, //customsearch
 };
