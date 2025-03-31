@@ -199,6 +199,8 @@ static Alias aliases[] = {
     { "ai",         "https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" }, //customalias
     { "duck",       "https://duckduckgo.com/" }, //customalias
     { "google",     "https://google.com/" }, //customalias
+    { "youtube",    "https://youtube.com/" }, //customalias
+    { "spotify",    "https://open.spotify.com/" }, //customalias
     { "tr",         "https://translate.google.co.uk/" }, //customalias
     { "tre",        "https://translate.google.co.uk/?sl=en&tl=es&op=translate" }, //customalias
     { "trs",        "https://translate.google.co.uk/?sl=es&tl=en&op=translate" }, //customalias
@@ -212,6 +214,7 @@ static Alias aliases[] = {
 static SearchEngine searchengines[] = {
 	{ "duckq", 		"https://duckduckgo.com/?q=%s" }, //customsearch
 	{ "googleq ", 	"https://google.com/search?q=%s" }, //customsearch
+	{ "youtubeq ", 	"https://www.youtube.com/results?search_query=%s" }, //customsearch
 	{ "treq", 		"https://translate.google.co.uk/?sl=en&tl=es&op=translate&text=%s" }, //customsearch
 	{ "trsq", 		"https://translate.google.co.uk/?sl=es&tl=en&op=translate&text=%s" }, //customsearch
 };
